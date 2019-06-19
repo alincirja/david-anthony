@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>David Anthony | Contact</title>
+    <meta name="description" content="Description of the page" />
+    <meta name="author" content="Alin Cirja" />
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  
+    <!-- BXSlider -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+  
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+  
+</head>
+<body id="top">
+
+    <header id="header">
+        <div class="inner">
+            <div class="logo"><a href="#"><img src="img/logo.png" alt="" /></a></div>
+            <div class="phone">telephone: 01625 529369</div>
+
+            <div class="clear"></div>
+
+            <nav id="nav">
+                <ul class="inner">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#">meet the team</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">price list</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <select id="mobile-menu" onChange="window.location.href=this.value">
+                    <option>---Navigation---</option>
+                    <option value="#">Home</option>
+                    <option value="#">meet the team</option>
+                    <option value="#">about us</option>
+                    <option value="#">gallery</option>
+                    <option value="#">price list</option>
+                    <option value="#">contact us</option>
+                </select>
+            </div><!--/.mobile-nav-->
+        </div><!--/.inner-->
+    </header>
+
+    <section id="slider">
+        <ul class="main-slider">
+            <li style="background:url(img/slides/slide-1.jpg)">
+                <div class="slogan" alt="" />
+                    <p>Lorem ipsum dolor sit amet, ullam sit amet enim. Suspendisse id velit vitae ligula volutpat.</p>
+                </div><!--/.slogan-->
+                <div class="clear"></div>
+                <div class="link"><a href="#">Book your appointment >></a></div>
+                <div class="clear"></div>
+            </li>
+            <li style="background:url(img/slides/slide-2.jpg)">
+                <div class="slogan" alt="" />
+                    <p>Lorem ipsum dolor sit amet, ullam sit amet enim. Suspendisse id velit vitae ligula volutpat.</p>
+                </div><!--/.slogan-->
+                <div class="clear"></div>
+                <div class="link"><a href="#">Book your appointment >></a></div>
+                <div class="clear"></div>
+            </li>
+            <li style="background:url(img/slides/slide-3.jpg)">
+                <div class="slogan" alt="" />
+                    <p>Lorem ipsum dolor sit amet, ullam sit amet enim. Suspendisse id velit vitae ligula volutpat.</p>
+                </div><!--/.slogan-->
+                <div class="clear"></div>
+                <div class="link"><a href="#">Book your appointment >></a></div>
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </section><!--/#slider-->
+    
+
+    <section class="main white-back">
+        <div class="inner">
+            <h3>contact us</h3>
+            <address>
+                Contact Us<br />
+                2B Hawthorn Lane<br />
+                Wilmslow<br />
+                SK9 1AA<br /><br />
+                Tel : 01625 529369
+            </address>
+
+            <div class="map" id="map_1" style="height:500px; margin: 35px 0 80px;"></div>
+
+
+            <h3>OPENING TIMES</h3>
+            <ul class="schedule">
+                <li><span>Monday</span>     XXam - XXPM</li>
+                <li><span>Tuesday</span>    XXam - XXPM</li>
+                <li><span>Wednesday</span>  XXam - XXPM</li>
+                <li><span>Thursday</span>   XXam - XXPM</li>
+                <li><span>Friday</span>     XXam - XXPM</li>
+                <li><span>Saturday</span>   XXam - XXPM</li>
+                <li><span>Sunday</span>          Closed</li>
+            </ul>
+
+        </div><!--/.inner-->
+    </section>
+
+    <footer id="footer">
+        <div class="inner">
+            <div class="logo">DAVID ANTHONY  HAIRDRESSING</div>
+            <div class="inf"><p>Rus. Fure essis conihil hoca; eo, que patum. Ti. Ubis, no. Castamq uiderfi ribentiaed ignostr aedit? Manum ad conderit, ur, que qua publium tandis ade </p></div>
+            <div class="clear"></div>
+        </div><!--/.inner-->
+    </footer>
+
+
+<!-- Start JavaScript -->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script> <!-- Custom Js file for javascript in html -->
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+    function initialize() {
+
+        // Create an array of styles.
+      var styles = [
+        {
+          stylers: [
+            { saturation: 0 }
+          ]
+        },{
+          featureType: "All",
+          elementType: "All",
+          stylers: [
+            { lightness: 0 },
+            { visibility: "simplified" },
+            { Gamma:    0 }
+          ]
+        },{
+          featureType: "road",
+          elementType: "labels",
+          stylers: [
+            { visibility: "off" }
+          ]
+        }
+      ];
+
+  // Create a new StyledMapType object, passing it the array of styles,
+  // as well as the name to be displayed on the map type control.
+  var styledMap = new google.maps.StyledMapType(styles,
+    {name: "Styled Map"});
+
+
+
+
+  var myLatlng = new google.maps.LatLng(53.3281888,-2.2303417);
+  var mapOptions = {
+    zoom: 15,
+    center: myLatlng,
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+    }
+
+  }
+  var map = new google.maps.Map(document.getElementById('map_1'), mapOptions);
+  //Associate the styled map with the MapTypeId and set it to display.
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
+
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- End JavaScript -->
+</body>
+</html>
